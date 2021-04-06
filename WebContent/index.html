@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>GeunwooPark</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+		<script type = "text/javascript" src = "sumValue.js"></script>
+		<script type = "text/javascript" src = "time.js"></script>
+	
+	</head>
+	<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light container">
+		  <div class="container">
+		    <a class="navbar-brand" href="#">GeunwooPark</a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarNav">
+		      <ul class="navbar-nav">
+		        <li class="nav-item">
+		          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="./blog.html">Blog</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="./about_me.html ">About Me</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+			
+		<div class = "container">
+		<h1> HOME </h1>
+		<div class = "row">
+			<div class = "col-3">
+				<img src = "./image/logo.png" width="130px">
+				<p> </p>
+			</div>
+			<div class = "col-9">
+				<h2>웹 애플리케이션 수업을 수강하고 있습니다. </h2>
+				<p></p>
+				<h4> 제 웹페이지입니다. </h4>
+				<p></p>
+				<h4> 감사합니다. </h4>
+ 
+				
+			
+			</div>
+			
+			<hr/>
+		</div>
+		<button onclick = "time()">현재시간</button><hr/>
+				<p>덧셈</p>
+				
+				<input id = "v1" onkeyup = "sumValue()"/><br/>
+				<input id = "v2" onkeyup = "sumValue()"/><br/>
+				<hr/>
+				<span id = "v3"> 0</span>
+				<hr/>
+				<a href = "index.html">첫화면으로</a>
+		
+		
+		
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+	</body>
+</html>
